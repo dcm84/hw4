@@ -1,0 +1,4 @@
+#colored {width: 100%; height: 150px; background-color: rgb(221, 53, 67); text-align:center; padding-top: 50px; }
+#colored input {width: 150px; height: 50px; text-align:center; background-color: #fff; border: 1px #000 solid; font-size: 18px;}
+#colored input:focus {border: 1px aqua solid;}
+#colored p {width: 148px; text-align:center; background-color: rgba(0, 0, 0, 0.3); border: 1px #000 solid; font-size: 18px; padding: 15px 0px; margin: 0px auto; color: #fff;}

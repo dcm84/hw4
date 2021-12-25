@@ -1,0 +1,42 @@
+<html>
+<head>
+	<style>
+		#colored {width: 100%; height: 150px; background-color: green; text-align:center; padding-top: 50px; }
+		#colored input {width: 150px; height: 50px; text-align:center; background-color: #fff; border: 1px #000 solid; font-size: 18px;}
+		#colored input:focus {border: 2px aqua solid;}
+		#colored p {width: 148px; text-align:center; background-color: rgba(0, 0, 0, 0.3); border: 1px #000 solid; font-size: 18px; padding: 15px 0px; margin: 0px auto; color: #fff;}
+
+		#steps {width: 600px; margin: 30px auto;}
+		#steps table {width: 100%}
+		#steps table td,  #steps table th {border: 1px #999 solid; background-color: #eee; text-align: center; padding: 3px;}
+		#steps table tr:nth-child(2n) td {background-color: #fff;}
+		#steps input {padding: 3px; margin-right: 3px;}
+	</style>
+</head>
+<body>
+	<div id="colored">
+	<form>
+		<input name="color" value="#34495e" />
+		<p>rgb(52, 73, 94)</p>
+	</form>
+	</div>
+
+	<div id="steps">
+		<form>
+			<input name="date" value="" placeholder="Дата (ДД.ММ.ГГ)" /><input name="distance" value="" placeholder="Пройдено, км." /><input type="submit" value="Добавить" />
+		</form>
+		<table>
+			<tr>
+				<th>Дата</th>
+				<th>Пройдено, км.</th>
+				<th>Действия</th>
+			</tr>
+			<tr>
+				<td>20.07.2020</td>
+				<td>5.5</td>
+				<td><button value="">X</button></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

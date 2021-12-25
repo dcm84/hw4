@@ -1,0 +1,6 @@
+#steps {width: 600px; margin: 30px auto;}
+#steps table {width: 100%; margin-top: 10px;}
+#steps table td,  #steps table th {border: 1px #999 solid; background-color: #eee; text-align: center; padding: 3px;}
+#steps table tr:nth-child(2n) td {background-color: #fff;}
+#steps table button {padding: 1px 5px; cursor: pointer;}
+#steps input {padding: 3px; margin-right: 3px;}
